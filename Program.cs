@@ -8,7 +8,7 @@ namespace Cebolinha
         {
             Console.WriteLine("olá, boa noite por favor escreva uma frase.");
                         
-            string Cebolinha = Console.ReadLine().Replace("r","l");
+            string Cebolinha = Console.ReadLine().Replace("r","l").Replace("R","L");
 
             Console.WriteLine(Cebolinha);
             
